@@ -91,7 +91,7 @@ iNews/
 ### 本地开发
 1. 克隆项目：
    ```bash
-   git clone https://github.com/zqding11/iNews-.git
+   git clone https://github.com/zqding11/iNews.git
    cd iNews
    ```
 2. 安装依赖：
