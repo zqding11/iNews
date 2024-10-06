@@ -1,0 +1,62 @@
+.news-detail-container {
+    max-width: 800px; /* 最大宽度 */
+    margin: 20px auto; /* 居中 */
+    padding: 20px; /* 内边距 */
+    background-color: #fff; /* 背景颜色 */
+    border-radius: 10px; /* 圆角 */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+    font-family: Arial, sans-serif; /* 字体 */
+}
+
+
+.news-title {
+    font-size: 28px; /* 标题大小 */
+    color: #333; /* 标题颜色 */
+    margin-bottom: 10px; /* 下边距 */
+}
+
+.news-source {
+    font-size: 16px; /* 来源大小 */
+    color: #777; /* 来源颜色 */
+    margin-bottom: 5px; /* 下边距 */
+}
+
+.news-date {
+    font-size: 14px; /* 日期大小 */
+    color: #aaa; /* 日期颜色 */
+    margin-bottom: 20px; /* 下边距 */
+}
+
+.news-content {
+    font-size: 18px; /* 内容大小 */
+    line-height: 1.6; /* 行高 */
+    color: #555; /* 内容颜色 */
+}
+
+.back-to-home {
+    display: inline-block; /* 块元素 */
+    margin-top: 20px; /* 上边距 */
+    padding: 10px 15px; /* 内边距 */
+    background-color: #007bff; /* 背景颜色 */
+    color: white; /* 字体颜色 */
+    border-radius: 5px; /* 圆角 */
+    text-decoration: none; /* 去掉下划线 */
+}
+
+.back-to-home:hover {
+    background-color: #0056b3; /* 悬停颜色 */
+}
+
+/* 添加 visited 伪类，保持链接颜色不变 */
+.back-to-home:visited {
+    color: white; /* 保持已访问链接的颜色 */
+    background-color: #007bff; /* 保持背景颜色 */
+}
+
+.news-detail-image {
+    width: 800px; /* 设置固定宽度 */
+    height: auto; /* 高度自适应 */
+    border-radius: 10px; /* 圆角 */
+    margin: 20px 0; /* 上下间距 */
+}
+

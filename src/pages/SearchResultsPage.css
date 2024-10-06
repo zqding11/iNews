@@ -1,0 +1,26 @@
+.back-to-home, .fixed-back-to-home {
+    color: #007bff; /* 链接颜色 */
+    text-decoration: none; /* 去掉下划线 */
+    font-size: 16px; /* 链接字体大小 */
+}
+
+.fixed-back-to-home {
+    position: fixed; /* 固定定位 */
+    top: 10px; /* 距离顶部10px */
+    right: 20px; /* 距离右边20px */
+    background-color: white; /* 背景颜色 */
+    padding: 10px; /* 内边距 */
+    border-radius: 5px; /* 圆角 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+    z-index: 100; /* 确保在其他元素之上 */
+}
+
+/* 悬停时添加下划线 */
+.fixed-back-to-home:hover {
+    text-decoration: underline;
+}
+
+/* 防止点击后变成紫色 */
+.fixed-back-to-home:visited {
+    color: #007bff; /* 保持访问后的颜色与未访问时相同 */
+}
